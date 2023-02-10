@@ -17,15 +17,15 @@ function calc() {
         if (bmiValue<18.5) {
             return bmi.innerText='Your BMI is '+bmiValue +' , and you are Under weight.'
         }
-        else if(bmiValue>18.5 || bmiValue<24.9){
+        else if(bmiValue>18.5 && bmiValue<24.9){
             return bmi.innerText='Your BMI is '+bmiValue +' , and you are preety much normal.'
 
         }
-        else if(bmiValue>25 || bmiValue<29.9){
+        else if(bmiValue>25 && bmiValue<29.9){
             return bmi.innerText='Your BMI is '+bmiValue +' , and you are Over Weight.'
 
         }
-        else if(bmiValue>30 || bmiValue<39.9){
+        else if(bmiValue>30 && bmiValue<39.9){
             return bmi.innerText='Your BMI is '+bmiValue +' , and you are preety much Fatty.'
 
         }

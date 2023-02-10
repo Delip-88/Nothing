@@ -45,9 +45,9 @@ body{
     border: 1px solid purple;
     border-radius: 18px;
 }
-p #hey{
-    font-size: 40px;
+p{
+    font-size: 30px;
     color: tomato;
-    background-color: wheat;
+    text-align: center;
 
 }
